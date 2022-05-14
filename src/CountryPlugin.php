@@ -28,6 +28,23 @@ use Composer\Script\ScriptEvents;
  */
 class CountryPlugin implements PluginInterface, EventSubscriberInterface
 {
+    protected $composer;
+    protected $io;
+
+    /**
+     * Activate the plugin.
+     *
+     * @since 0.1.3
+     *
+     * @param Composer    $composer The main Composer object.
+     * @param IOInterface $io       The i/o interface to use.
+     */
+    public function activate(Composer $composer, IOInterface $io)
+    {
+        $this->composer = $composer;
+        $this->io = $io;
+    }
+
     /**
      * Get the event subscriber configuration for this plugin.
      *
@@ -151,19 +168,6 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
         $data .= '   ],' . PHP_EOL;
         $data .= '];' . PHP_EOL;
         file_put_contents($phpFile, $data);
-    }
-
-    /**
-     * Activate the plugin.
-     *
-     * @since 0.1.3
-     *
-     * @param Composer    $composer The main Composer object.
-     * @param IOInterface $io       The i/o interface to use.
-     */
-    public function activate(Composer $composer, IOInterface $io)
-    {
-        // no action required
     }
 
     /**
