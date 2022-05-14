@@ -1,0 +1,26 @@
+{
+  "name": "irando/country-codes",
+  "description": "Automatically updated country data containing ISO codes and English country names, powered by free MaxMind data.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert Nicjoo",
+      "email": "info@irando.co.id"
+    }
+  ],
+  "type": "composer-plugin",
+  "require": {
+    "php": ">=8.0",
+    "composer-plugin-api": "^2.2",
+    "irando/config": ">=0.2",
+    "irando/exceptions": ">=0.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Irando\\CountryCodes\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Irando\\CountryCodes\\CountryPlugin"
+  }
+}
