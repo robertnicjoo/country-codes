@@ -21,6 +21,11 @@
     }
   },
   "extra": {
-    "class": "Irando\\CountryCodes\\CountryPlugin"
+    "class": "Irando\\CountryCodes\\CountryPlugin",
+    "laravel": {
+        "providers": [
+            "Irando\\CountryCodes\\CountryPlugin"
+        ]
+    }
   }
 }
