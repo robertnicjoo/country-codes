@@ -1,4 +1,4 @@
-# CV. IRANDO Country Codes Database
+# IRANDO Country Codes Database
 
 This is a Composer plugin that provides an automated version of the free MaxMind GeoLite CSV Country Codes database.
 
