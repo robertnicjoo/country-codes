@@ -26,7 +26,7 @@ use Composer\Script\ScriptEvents;
  * @package Irando\CountryCodes
  * @author  Robert Nicjoo <info@irando.co.id>
  */
-class CountryPlugin implements PluginInterface, EventSubscriberInterface
+class CountryPlugin
 {
 
     /**
