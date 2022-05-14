@@ -59,7 +59,7 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
 
         $io = $event->getIO();
         $io->write('Fetching new CSV version of the MaxMind ISO3166 country codes database...', true);
-        self::downloadFile($dbFilename . '.csv', Country::DB_URL);
+        // self::downloadFile($dbFilename . '.csv', Country::DB_URL);
 
         $io->write('Generating PHP configuration file from CSV file...', true);
         self::generateConfig($dbFilename . '.csv', $dbFilename . '.php');
@@ -97,20 +97,20 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
      *
      * @param string $filename Filename of the file to download.
      */
-    protected static function downloadFile($filename, $url)
-    {
-        $fileHandle = fopen($filename, 'w');
-        $options    = [
-            CURLOPT_FILE    => $fileHandle,
-            CURLOPT_TIMEOUT => 600,
-            CURLOPT_URL     => $url,
-        ];
+    // protected static function downloadFile($filename, $url)
+    // {
+    //     $fileHandle = fopen($filename, 'w');
+    //     $options    = [
+    //         CURLOPT_FILE    => $fileHandle,
+    //         CURLOPT_TIMEOUT => 600,
+    //         CURLOPT_URL     => $url,
+    //     ];
 
-        $curl = curl_init();
-        curl_setopt_array($curl, $options);
-        curl_exec($curl);
-        curl_close($curl);
-    }
+    //     $curl = curl_init();
+    //     curl_setopt_array($curl, $options);
+    //     curl_exec($curl);
+    //     curl_close($curl);
+    // }
 
     /**
      * Delete a file.

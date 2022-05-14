@@ -37,7 +37,7 @@
     "class": "Irando\\CountryCodes\\CountryPlugin",
     "laravel": {
         "providers": [
-            "Irando\\CountryCodes\\CountryPlugin"
+          "Irando\\CountryCodes\\CountryPlugin"
         ]
     }
   }
