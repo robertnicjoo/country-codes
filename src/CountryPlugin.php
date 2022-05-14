@@ -28,7 +28,6 @@ use Composer\Script\ScriptEvents;
  */
 class CountryPlugin implements PluginInterface, EventSubscriberInterface
 {
-
     /**
      * Get the event subscriber configuration for this plugin.
      *
@@ -163,6 +162,30 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
      * @param IOInterface $io       The i/o interface to use.
      */
     public function activate(Composer $composer, IOInterface $io)
+    {
+        // no action required
+    }
+
+    /**
+     * Remove any hooks from Composer
+     *
+     * @param Composer    $composer
+     * @param IOInterface $io
+     */
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+        // no action required
+    }
+
+    /**
+     * Prepare the plugin to be uninstalled
+     *
+     * This will be called after deactivate
+     *
+     * @param Composer    $composer
+     * @param IOInterface $io
+     */
+    public function uninstall(Composer $composer, IOInterface $io)
     {
         // no action required
     }
