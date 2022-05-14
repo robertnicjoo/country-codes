@@ -1,11 +1,24 @@
 {
   "name": "irando/country-codes",
   "description": "Automatically updated country data containing ISO codes and English country names, powered by free MaxMind data.",
+  "keywords": [
+    "country",
+    "country codes",
+    "iso",
+    "iso code",
+    "laravel",
+    "laravel8",
+    "laravel9",
+    "irando",
+    "cv irando",
+    "php"
+],
   "license": "MIT",
   "authors": [
     {
       "name": "Robert Nicjoo",
-      "email": "info@irando.co.id"
+      "email": "info@irando.co.id",
+      "homepage": "https://irando.co.id"
     }
   ],
   "type": "composer-plugin",
