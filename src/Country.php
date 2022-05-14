@@ -11,10 +11,10 @@
 
 namespace Irando\CountryCodes;
 
-use Irando\Config\ConfigFactory;
-use Irando\Config\ConfigInterface;
-use Irando\CountryCodes\Exception\InvalidCountryCode;
-use Irando\CountryCodes\Exception\InvalidCountryName;
+use BrightNucleus\Config\ConfigFactory;
+use BrightNucleus\Config\ConfigInterface;
+use BrightNucleus\CountryCodes\Exception\InvalidCountryCode;
+use BrightNucleus\CountryCodes\Exception\InvalidCountryName;
 
 /**
  * Class Country.
