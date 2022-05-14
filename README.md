@@ -45,6 +45,17 @@ $name = Country::getNameFromCode( 'US' ); // Returns 'United States'.
 $code = Country::getCodeFromName( 'United States' ); // Returns 'US'.
 ```
 
+## Laravel Usage
+
+Add following line in your `config/app.php` file
+
+```PHP
+'providers' => [
+    // ...
+    Irando\CountryCodes\Country::class,
+];
+```
+
 ## Contributing
 
 All feedback / bug reports / pull requests are welcome.
