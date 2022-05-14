@@ -43,5 +43,7 @@
           "Irando\\CountryCodes\\CountryPlugin"
         ]
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

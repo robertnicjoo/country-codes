@@ -1,4 +1,8 @@
 <?php
+
+
+declare(strict_types=1);
+
 /**
  * Composer-packaged version of the free MaxMind GeoLite2 Country database.
  *
