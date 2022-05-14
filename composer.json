@@ -24,7 +24,7 @@
   "type": "composer-plugin",
   "require": {
     "php": ">=8.0",
-    "composer-plugin-api": "^2.2",
+    "composer-plugin-api": "^2.0",
     "irando/config": ">=0.2",
     "irando/exceptions": ">=0.3.0"
   },
