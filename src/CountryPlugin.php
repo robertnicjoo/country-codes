@@ -45,7 +45,7 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
      */
     public function activate(Composer $composer, IOInterface $io)
     {
-        $installer = new TemplateInstaller($io, $composer);
+        $installer = new CountryPlugin($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
     }
 
