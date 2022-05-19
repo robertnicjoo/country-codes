@@ -25,6 +25,7 @@
   "type": "composer-plugin",
   "require": {
     "php": "^7.4",
+    "composer/composer": "^2.0",
     "composer-plugin-api": "^2.0",
     "brightnucleus/config": ">=0.2",
     "brightnucleus/exceptions": ">=0.3.0"
