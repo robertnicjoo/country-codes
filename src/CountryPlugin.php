@@ -18,7 +18,6 @@ namespace Irando\CountryCodes;
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
 use Composer\IO\IOInterface;
-use Composer\Plugin\PluginInterface;
 use Composer\Script\Event;
 use Composer\Script\ScriptEvents;
 
@@ -30,7 +29,7 @@ use Composer\Script\ScriptEvents;
  * @package Irando\CountryCodes
  * @author  Robert Nicjoo <info@irando.co.id>
  */
-class CountryPlugin implements PluginInterface, EventSubscriberInterface
+class CountryPlugin implements EventSubscriberInterface
 {
     protected $composer;
     protected $io;
