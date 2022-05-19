@@ -1,6 +1,7 @@
 {
   "name": "irando/country-codes",
   "description": "Automatically updated country data containing ISO codes and English country names, powered by free MaxMind data.",
+  "homepage": "https://github.com/robertnicjoo/country-codes",
   "keywords": [
     "country",
     "country codes",
