@@ -19,6 +19,16 @@ Also my main reason to rebuild and improve this package was to get google analyt
 This product includes GeoLite Legacy data created by MaxMind, available from
 <a href="http://www.maxmind.com">http://www.maxmind.com</a>.
 
+## Requirements
+
+
+|  Source | Version |
+| :--- | ---: |
+| Composer  | ^2.0  |
+| PHP  | ^7.4  |
+
+
+
 ## Installation
 
 The only thing you need to do to make this work is adding this package as a dependency to your project:
