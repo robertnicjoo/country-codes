@@ -26,7 +26,7 @@
   "require": {
     "php": "^7.4|^8.0",
     "composer/composer": "^2.0",
-    "composer-plugin-api": "2.0.*",
+    "composer-plugin-api": "^2.0",
     "brightnucleus/config": ">=0.2",
     "brightnucleus/exceptions": ">=0.3.0"
   },
