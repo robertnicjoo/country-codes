@@ -26,10 +26,9 @@ use BrightNucleus\CountryCodes\Exception\InvalidCountryName;
  */
 class Country
 {
-
     const DB_FILENAME = 'iso3166';
-    const DB_FOLDER   = 'Database';
-    // const DB_URL      = '/iso3166.csv';
+    const DB_FOLDER   = 'data';
+    const DB_URL      = 'https://dev.maxmind.com/csv-files/codes/iso3166.csv';
 
     /**
      * The configuration data that is queried.
