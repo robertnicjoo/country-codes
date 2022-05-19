@@ -39,12 +39,7 @@
     }
   },
   "extra": {
-    "class": "Irando\\CountryCodes\\CountryPlugin",
-    "laravel": {
-        "providers": [
-          "Irando\\CountryCodes\\CountryPlugin"
-        ]
-    }
+    "class": "Irando\\CountryCodes\\CountryPlugin"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
