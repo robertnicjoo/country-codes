@@ -15,6 +15,10 @@
         "php"
     ],
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/robertnicjoo/country-codes/issues",
+        "source": "https://github.com/robertnicjoo/country-codes"
+    },
     "autoload": {
         "psr-4": {
             "Irando\\CountryCodes\\": "src/"
@@ -23,7 +27,7 @@
     "type": "composer-plugin",
     "authors": [
         {
-            "name": "robert nicjoo",
+            "name": "Robert Nicjoo",
             "email": "robertnicjoo@outlook.com",
             "homepage": "https://irando.co.id"
         }
@@ -34,7 +38,8 @@
             "providers": [
                 "Irando\\CountryCodes\\CountryCodesServiceProvider"
             ]
-        }
+        },
+        "class": "Irando\\CountryCodes"
     },
     "require": {
         "php": "^7.4|^8.0",
