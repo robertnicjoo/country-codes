@@ -24,8 +24,7 @@
     "authors": [
         {
             "name": "Robert Nicjoo",
-            "email": "robertnicjoo@outlook.com",
-            "homepage": "https://irando.co.id"
+            "email": "robertnicjoo@outlook.com"
         }
     ],
     "minimum-stability": "dev",
