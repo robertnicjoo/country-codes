@@ -44,8 +44,7 @@
             "providers": [
                 "Irando\\CountryCodes\\CountryCodesServiceProvider"
             ]
-        },
-        "class": "Irando\\CountryCodes"
+        }
     },
     "prefer-stable": true
 }
