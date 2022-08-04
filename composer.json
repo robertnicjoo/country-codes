@@ -15,27 +15,15 @@
         "php"
     ],
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Irando\\CountryCodes\\": "src/"
-        }
-    },
     "type": "composer-plugin",
     "authors": [
         {
             "name": "Robert Nicjoo",
-            "email": "robertnicjoo@outlook.com"
+            "email": "robertnicjoo@outlook.com",
+            "homepage": "https://irando.co.id"
         }
     ],
     "minimum-stability": "dev",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Irando\\CountryCodes\\CountryCodesServiceProvider"
-            ]
-        },
-        "class": "Irando\\CountryCodes\\CountryCodesServiceProvider"
-    },
     "require": {
         "php": "^7.4|^8.0",
         "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
@@ -45,6 +33,19 @@
     "require-dev": {
         "composer/composer": "^2.0",
         "illuminate/view": "^5.0|^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Irando\\CountryCodes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irando\\CountryCodes\\CountryCodesServiceProvider"
+            ]
+        },
+        "class": "Irando\\CountryCodes\\CountryCodesServiceProvider"
     },
     "prefer-stable": true
 }
