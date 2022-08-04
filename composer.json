@@ -38,11 +38,13 @@
     },
     "require": {
         "php": "^7.4|^8.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
         "composer/composer": "^2.0",
         "composer-plugin-api": "^2.0"
     },
     "require-dev": {
-        "composer/composer": "^2.0"
+        "composer/composer": "^2.0",
+        "illuminate/view": "^5.0|^6.0|^7.0|^8.0"
     },
     "prefer-stable": true
 }
