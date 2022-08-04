@@ -34,7 +34,7 @@
                 "Irando\\CountryCodes\\CountryCodesServiceProvider"
             ]
         },
-        "class": "Irando\\CountryCodes"
+        "class": "Irando\\CountryCodes\\CountryCodesServiceProvider"
     },
     "require": {
         "php": "^7.4|^8.0",
