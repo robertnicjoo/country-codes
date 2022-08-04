@@ -40,7 +40,6 @@
         }
     },
     "extra": {
-        "class": "Irando\\CountryCodes\\CountryCodesServiceProvider",
         "laravel": {
             "providers": [
                 "Irando\\CountryCodes\\CountryCodesServiceProvider"
