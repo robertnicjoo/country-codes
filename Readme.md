@@ -92,5 +92,4 @@ This code is released under the MIT license.
 
 For the full copyright and license information, please view the [`LICENSE`](LICENSE) file distributed with this source code.
 
-> Developed by [Robert Nicjoo](https://github.com/robertnicjoo) at 
-[CV. IRANDO](https://irando.co.id)
+> Developed by [Robert Nicjoo](https://github.com/robertnicjoo) at [CV. IRANDO](https://irando.co.id)

@@ -15,10 +15,6 @@
         "php"
     ],
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/robertnicjoo/country-codes/issues",
-        "source": "https://github.com/robertnicjoo/country-codes"
-    },
     "autoload": {
         "psr-4": {
             "Irando\\CountryCodes\\": "src/"
