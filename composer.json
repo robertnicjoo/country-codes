@@ -41,5 +41,6 @@
             "email": "robertnicjoo@outlook.com",
             "homepage": "https://irando.co.id"
         }
-    ]
+    ],
+    "prefer-stable": true
 }
