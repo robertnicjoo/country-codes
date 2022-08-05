@@ -13,15 +13,23 @@
         "cv irando",
         "php"
     ],
+    "license": "MIT",
     "homepage": "https://github.com/robertnicjoo/country-codes",
+    "authors": [
+        {
+            "name": "Robert Nicjoo",
+            "homepage": "https://irando.co.id"
+        }
+    ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^7.0|^8.0|^9.0"
+        "php": "^7.0 || ^8.0 || ^8.1",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0",
+        "illuminate/view": "^5.0|^6.0|^7.0|^8.0|^9.0",
+        "guzzlehttp/guzzle": "^6.2|^7.0"
     },
     "require-dev": {
-        "composer/composer": "^2.0"
+        "phpunit/phpunit": "^8.0|^9.3"
     },
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Irando\\CountryCodes\\": "src/"
@@ -33,13 +41,5 @@
                 "Irando\\CountryCodes\\CountryCodesServiceProvider"
             ]
         }
-    },
-    "authors": [
-        {
-            "name": "Robert Nicjoo",
-            "email": "robertnicjoo@outlook.com",
-            "homepage": "https://irando.co.id"
-        }
-    ],
-    "prefer-stable": true
+    }
 }
