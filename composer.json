@@ -1,7 +1,6 @@
 {
     "name": "irando/country-codes",
     "description": "The most complete country code list fpackage for laravel",
-    "homepage": "https://github.com/robertnicjoo/country-codes",
     "keywords": [
         "country",
         "country codes",
@@ -14,8 +13,8 @@
         "cv irando",
         "php"
     ],
+    "homepage": "https://github.com/robertnicjoo/country-codes",
     "license": "MIT",
-    "type": "composer-plugin",
     "authors": [
         {
             "name": "Robert Nicjoo",
@@ -23,12 +22,9 @@
             "homepage": "https://irando.co.id"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.4|^8.0",
         "illuminate/support": "^7.0|^8.0|^9.0",
-        "composer/composer": "^2.0",
-        "composer-plugin-api": "^2.0"
     },
     "require-dev": {
         "composer/composer": "^2.0",
@@ -39,6 +35,14 @@
             "Irando\\CountryCodes\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Irando\\CountryCodes\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -46,5 +50,6 @@
             ]
         }
     },
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
