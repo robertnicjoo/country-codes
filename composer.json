@@ -33,9 +33,6 @@
             "providers": [
                 "Irando\\CountryCodes\\CountryCodesServiceProvider"
             ]
-        },
-        "branch-alias": {
-            "dev-master": "master-dev"
         }
     },
     "authors": [
@@ -44,6 +41,5 @@
             "email": "robertnicjoo@outlook.com",
             "homepage": "https://irando.co.id"
         }
-    ],
-    "minimum-stability": "stable"
+    ]
 }
