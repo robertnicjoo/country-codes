@@ -14,42 +14,26 @@
         "php"
     ],
     "homepage": "https://github.com/robertnicjoo/country-codes",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Robert Nicjoo",
-            "email": "robertnicjoo@outlook.com",
-            "homepage": "https://irando.co.id"
-        }
-    ],
+    "type": "composer-plugin",
     "require": {
         "php": "^7.4|^8.0",
         "illuminate/support": "^7.0|^8.0|^9.0"
     },
     "require-dev": {
-        "composer/composer": "^2.0",
-        "illuminate/view": "^5.0|^6.0|^7.0|^8.0"
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7.0|^8.0|^9.0"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Irando\\CountryCodes\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Irando\\CountryCodes\\": "src/"
+    "authors": [
+        {
+            "name": "Robert Nicjoo",
+            "email": "robertnicjoo@outlook.com"
         }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Irando\\CountryCodes\\CountryCodesServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    ],
+    "minimum-stability": "dev"
 }
