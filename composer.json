@@ -29,6 +29,13 @@
             "Irando\\CountryCodes\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irando\\CountryCodes\\CountryCodesServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Robert Nicjoo",
