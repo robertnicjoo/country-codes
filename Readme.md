@@ -32,7 +32,7 @@ Also my main reason to build this package was to send WhatsApp message (specific
 |  Source | Version |
 | :--- | ---: |
 | Composer  | ^2.0  |
-| PHP  | ^7.4/^8.0  |
+| PHP  | ^7.4/^8.0 /^8.2 |
 
 ## Installation
 
